@@ -36,6 +36,7 @@ main {
 }
 
 main .container {
+  position: relative;
   margin-top: 3rem;
   padding: 2rem;
   border-radius: 1rem;
@@ -49,6 +50,11 @@ main .title {
   gap: 16px;
   padding-bottom: 0.5rem;
   align-items: center;
+}
+
+main .container .online-class .bg-circle {
+  position: absolute;
+  z-index: -99;
 }
 
 button {
