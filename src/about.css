@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fffff0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  font-size: 18px;
+  cursor: default;
+}
+
+header {
+  margin: 2rem 0 1rem 0;
+}
+
+main .upper-container {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  gap: 7rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .upper-container .text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+main .upper-container .text h4 {
+  font-size: 24px;
+}
+
+main .upper-container .text p {
+  padding-left: 2rem;
+}
+
+main .upper-container img {
+  width: 15%;
+  height: 15%;
+}
+
+main .lower-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+main .lower-container .vision,
+.mission {
+  width: 75vh;
+  border: 2px solid #c6c500;
+  padding: 3rem 5rem;
+  border-radius: 2rem;
+  margin-top: 5rem;
+  background-color: #f8f8e2;
+  position: relative;
+}
+
+main .lower-container .vision h4 {
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  transform: translate(50%, -50%);
+  font-size: 28px;
+  border: 2px solid #c6c500;
+  border-radius: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #f8f8e2;
+  color: #a79b00;
+}
+
+main .lower-container .mission h4 {
+  position: absolute;
+  top: 0;
+  left: -1rem;
+  transform: translate(50%, -50%);
+  font-size: 28px;
+  border: 2px solid #c6c500;
+  border-radius: 1rem;
+  padding: 0.75rem 2rem;
+  background-color: #f8f8e2;
+  color: #a79b00;
+}
+
+main .lower-container .vision h3 {
+  font-size: 56px;
+  padding-bottom: 2rem;
+}
+
+main .lower-container .mission h3 {
+  font-size: 56px;
+  padding-bottom: 2rem;
+}
+
+main .lower-container .mission ol li {
+  margin-bottom: 0.75rem;
+}

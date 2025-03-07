@@ -9,11 +9,12 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #fffff0;
-  min-height: 90vh;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   gap: 3rem;
   cursor: default;
+  font-size: 18px;
 }
 
 header {
